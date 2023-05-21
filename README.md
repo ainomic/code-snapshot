@@ -48,5 +48,5 @@ Create a snapshot image for your code to share the formatted code anywhere. We u
 
 1. Run the python script `python main.py`. This should generate a file `code_snapshot.png` in the same directory as `main.py`.
 1. It should look like this:
-   ![code_snapshot](code_snapshot.png)
+   ![code_snapshot](https://github.com/ainomic/code-snapshot/blob/0.1.5/code_snapshot.png)
 1. You can use `cs.generate_snapshot(settings, editor)` to consume `bytes` if required.

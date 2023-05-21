@@ -20,7 +20,8 @@ classifiers = [
 keywords = ["snapshot", "screenshot", "code-snapshot", "code-screenshot"]
 requires-python = ">=3.8"
 dependencies=[
-    "requests"
+    "requests>=2.5.*",
+    "certifi>=2023.5.*",
 ]
 
 [project.optional-dependencies]

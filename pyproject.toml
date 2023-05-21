@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "code-snapshot"
-version = "0.1.2"
+version = "0.1.3"
 description = "A tool to generate and save code snapshots"
 readme = "README.md"
 authors = [{ name = "Ainomic Technology", email = "contact@ainomic.in" }]
@@ -19,6 +19,7 @@ classifiers = [
 ]
 keywords = ["snapshot", "screenshot", "code-snapshot", "code-screenshot"]
 requires-python = ">=3.8"
+include = ["Showcode_API_token.png"]
 
 [project.optional-dependencies]
 dev = ["black", "bumpver", "isort", "pip-tools", "pytest"]
@@ -27,7 +28,7 @@ dev = ["black", "bumpver", "isort", "pip-tools", "pytest"]
 Homepage = "https://github.com/ainomic/code-snapshot"
 
 [tool.bumpver]
-current_version = "0.1.2"
+current_version = "0.1.3"
 version_pattern = "MAJOR.MINOR.PATCH"
 commit_message = "bump version {old_version} -> {new_version}"
 commit = true

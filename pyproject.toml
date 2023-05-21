@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "code-snapshot"
-version = "0.1.6"
+version = "0.1.7"
 description = "A tool to generate and save code snapshots"
 readme = "README.md"
 authors = [{ name = "Ainomic Technology", email = "contact@ainomic.in" }]
@@ -31,7 +31,7 @@ dev = ["black", "bumpver", "isort", "pip-tools", "pytest"]
 Homepage = "https://github.com/ainomic/code-snapshot"
 
 [tool.bumpver]
-current_version = "0.1.6"
+current_version = "0.1.7"
 version_pattern = "MAJOR.MINOR.PATCH"
 commit_message = "bump version {old_version} -> {new_version}"
 commit = true

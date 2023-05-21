@@ -19,6 +19,7 @@ classifiers = [
 ]
 keywords = ["snapshot", "screenshot", "code-snapshot", "code-screenshot"]
 requires-python = ">=3.8"
+include = ["Showcode_API_token.png"]
 
 [project.optional-dependencies]
 dev = ["black", "bumpver", "isort", "pip-tools", "pytest"]

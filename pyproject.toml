@@ -12,10 +12,10 @@ readme = "README.md"
 authors = [{ name = "Ainomic Technology", email = "contact@ainomic.in" }]
 license = { file = "LICENSE" }
 classifiers = [
-    "License :: OSI Approved :: GNU GENERAL PUBLIC LICENSE",
+    "License :: OSI Approved :: GNU General Public License (GPL)",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
 ]
 keywords = ["snapshot", "screenshot", "code-snapshot", "code-screenshot"]
 requires-python = ">=3.8"
@@ -42,4 +42,3 @@ push = false
 "code_snapshot/__init__.py" = [
     "{version}",
 ]
-

@@ -18,7 +18,7 @@ Create a snapshot image for your code to share the formatted code anywhere. We u
 
 1. Create a virtual environment: `conda create -n code-snapshot-test-env -y python=3.8`
 1. Activate the environment: `conda activate code-snapshot-test-env`
-1. Install the package `pip install -i https://test.pypi.org/simple/ code-snapshot`
+1. Install the package `pip install code-snapshot`
 
 ## Usage
 

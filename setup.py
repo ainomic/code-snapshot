@@ -26,6 +26,7 @@ def main():
         version=app.__version__,
         description=app.__doc__,
         long_description=read('README.md'),
+        long_description_content_type='text/markdown',
         classifiers=classifiers,
         license=[
             c.rsplit('::', 1)[1].strip()

@@ -10,7 +10,7 @@ Create a snapshot image for your code to share the formatted code anywhere. We u
    1. Check "read" permissions
    1. Copy the token displayed and store somewhere in safe. __Note: This token won't be shown again, so you need to paste it before you close the window__
 
-   ![Create API token snapshot](https://github.com/ainomic/code-snapshot/blob/0.1.3/Showcode_API_token.png)
+   ![Create API token snapshot](Showcode_API_token.png)
 1. Export an environment variable to store the token in the terminal: `export SHOWCODE_API_KEY={API Token}`
 1. Now, you're ready to use the package in your applications.
 
@@ -48,5 +48,5 @@ Create a snapshot image for your code to share the formatted code anywhere. We u
 
 1. Run the python script `python main.py`. This should generate a file `code_snapshot.png` in the same directory as `main.py`.
 1. It should look like this:
-   ![code_snapshot](https://github.com/ainomic/code-snapshot/blob/0.1.5/code_snapshot.png)
+   ![code_snapshot](code_snapshot.png)
 1. You can use `cs.generate_snapshot(settings, editor)` to consume `bytes` if required.

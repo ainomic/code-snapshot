@@ -25,7 +25,7 @@ def main():
         url="https://github.com/ainomic/code-snapshot",
         version=app.__version__,
         description=app.__doc__,
-        long_description=read('README.rst'),
+        long_description=read('README.md'),
         classifiers=classifiers,
         license=[
             c.rsplit('::', 1)[1].strip()

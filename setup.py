@@ -38,7 +38,7 @@ def main():
         include_package_data=True,
         platforms="ALL",
         install_requires=[
-            "requests >= 2.5.4.1, < 2.6",
+            "requests >= 2.20.0, < 2.21",
             "certifi",
         ],
         extras_require={},

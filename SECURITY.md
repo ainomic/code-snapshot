@@ -2,6 +2,16 @@
 
 We take the security of `code-snapshot` seriously. If you have discovered a security issue in our project, we appreciate your help in disclosing it to us in a responsible manner.
 
+## Supported Versions
+
+Use this section to tell people about which versions of your project are
+currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 0.2.3   | :white_check_mark: |
+| < 0.2.3 | :x:                |
+
 ## Reporting Security Issues
 
 We request you to **not** report security issues through GitHub issues or public forums. Doing so may put other users at risk, or unnecessarily expose our project to malicious attacks.

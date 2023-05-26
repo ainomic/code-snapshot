@@ -1,5 +1,9 @@
 # Code snapshot
 
+![Publish workflow](https://github.com/ainomic/code-snapshot/actions/workflows/python-publish.yml/badge.svg)
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/ainomic/code-snapshot?include_prereleases)
+![PyPI](https://img.shields.io/pypi/v/code-snapshot)
+
 Create a snapshot image for your code to share the formatted code anywhere. We use [SHOWCODE api](https://api.showcode.app) to create a PNG image for the specified code snippet.
 
 ## Getting started
